@@ -53,8 +53,6 @@
             this.gridView2.OptionsSelection.EnableAppearanceFocusedCell = false;
             this.gridView2.OptionsSelection.EnableAppearanceFocusedRow = false;
             this.gridView2.OptionsView.ShowIndicator = false;
-            this.gridView2.CustomDrawCell += new DevExpress.XtraGrid.Views.Base.RowCellCustomDrawEventHandler(this.myGridView1_CustomDrawCell);
-            this.gridView2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.myGridView1_MouseMove);
             // 
             // Form1
             // 
