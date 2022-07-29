@@ -37,38 +37,7 @@ namespace E3803
             return tbl;
             
         }
-
-
-        private void myGridView1_CustomDrawCell(object sender, DevExpress.XtraGrid.Views.Base.RowCellCustomDrawEventArgs e)
-        {
-            //if (hotRow != e.RowHandle && e.RowHandle != gridView2.FocusedRowHandle) return;
-            //GridCellInfo CellInfo = e.Cell as GridCellInfo;
-
-            //SimpleButton button = new SimpleButton();
-            //this.Controls.Add(button);
-            //button.Bounds = CellInfo.RowInfo.Bounds;
-
-            //Bitmap bm = new Bitmap(button.Width, button.Height);
-            //button.DrawToBitmap(bm, new Rectangle(0, 0, bm.Width, bm.Height));
-            //Rectangle rec = Rectangle.Intersect(CellInfo.RowInfo.Bounds, CellInfo.CellValueRect);
-            //rec.Offset(-CellInfo.RowInfo.Bounds.X, -CellInfo.RowInfo.Bounds.Y);
-            //e.Graphics.DrawImage(bm, CellInfo.CellValueRect, rec, GraphicsUnit.Pixel);
-
-        }
-
         int hotRow = GridControl.InvalidRowHandle;
-        private void myGridView1_MouseMove(object sender, MouseEventArgs e)
-        {
-            //GridHitInfo hi = gridView2.CalcHitInfo(e.Location);
-            //{
-            //    if (hotRow != hi.RowHandle)
-            //    {
-            //        gridView2.RefreshRow(hotRow);
-            //        hotRow = hi.RowHandle;
-            //        gridView2.RefreshRow(hotRow);
-            //    }
-            //}
-        }
-
+       
     }
 }
